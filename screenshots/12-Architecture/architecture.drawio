@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="n01M7n0j6fm6kI4pb5yP">
+    <mxGraphModel dx="766" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FyI3jvA8tnqJYEThWMsf-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="Users &#xa; |  &#xa; Internet &#xa;|&#xa; Application Load Balancer &#xa;|&#xa; API Gateway &#xa; |--------------------------------------| &#xa; Kubernetes Cluster&#xa; |--------------------------------------| &#xa;| User | Product | Order Service |&#xa;|&#xa;RDS Database&#xa;|&#xa;S3 Storage&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;Monitoring:CloudWatch&#xa;Prometheus&#xa;Grafana&#xa;&#xa;CI/CD:GitHub&#xa;GitHub Actions&#xa;&#xa;IaC:Terraform&#xa;&#xa;Serverless:AWS Lambda&#xa;&#xa;Future Layer:Kinesis&#xa;Redshift&#xa;SageMaker" vertex="1">
+          <mxGeometry height="560" width="560" x="40" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
